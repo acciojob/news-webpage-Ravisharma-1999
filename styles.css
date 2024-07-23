@@ -1,64 +1,53 @@
-/*  your css code here. If applicable */
-/* Reset default margin and padding */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+
+body{
+  background-color:#f5f5f5;
+  font-family: Sans-Serif;
 }
 
-body {
-  font-family: Arial, sans-serif;
-  background-color: #f5f5f5; /* Body background color */
-}
-
-.header {
-  background-color: #011e29; /* Header background color */
-  color: #ffffff;
+.header{
+  background-color: #011e29;
+  color:white;
   text-align: center;
-  padding: 20px 0;
+  padding:20px 0;
+  margin-bottom:20px;
+  
 }
 
-.latest-news-section {
-  background-color: #011e29; /* Latest News section background color */
-  color: #ffffff;
-  padding: 20px;
-  width: 80%;
-  margin: 20px auto;
-  border-radius: 8px;
+.container{
+  display: flex;
+  justify-content: center;
+  gap:20px;
+  padding:0 20px;
+}
+.latest-news-section{
+  background-color: white;
+  width: 30%;
+  padding:20px;
+  border-radius:10px;
+}
+.pictorial-news-section{
+  background-color: white;
+  width:60%;
+  padding:20px;
+  border-radius: 10px;
+  text-align: center;
 }
 
-.latest-news-section ul {
-  list-style-type: none;
-  padding-left: 0;
+.pictorial-news-section img{
+  width:100%;
+  max-width: 100%;
+  border-radius:10px;
+  margin-bottom:10px;
 }
 
-.latest-news-section li {
+.latest-news-section li{
   margin-bottom: 10px;
 }
 
-.pictorial-news-section {
-  background-color: #ffffff;
-  padding: 20px;
-  width: 80%;
-  margin: 20px auto;
+.main-article{
+  background-color: white;
+  width:80%;
+  padding:20px;
+  border-radius: 10px;
   text-align: center;
-  border-radius: 8px;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-}
-
-.pictorial-news-section h3 {
-  color: #011e29; /* Pictorial News section header color */
-  margin-bottom: 20px;
-}
-
-.image-grid {
-  display: flex;
-  justify-content: space-around;
-  margin-top: 20px;
-}
-
-.image-grid img {
-  width: 30%;
-  border-radius: 8px;
-  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.1);
 }
